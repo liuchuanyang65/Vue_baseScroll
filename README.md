@@ -1,4 +1,4 @@
-# Vue-baseScroll
+# Vue_baseScroll
 
 ## Project setup
 ```
