@@ -14,10 +14,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus" scoped>
-.wrap
-  font-size 32px
-  margin 100px
-  text-align left
-</style>
