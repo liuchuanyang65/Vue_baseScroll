@@ -1,0 +1,28 @@
+// 页面动画
+.fade-enter
+  opacity 0
+
+.fade-leave-to
+  opacity 0
+  transform translate(100%, 0)
+
+.fade-enter-to
+   opacity 0 
+   transform translate(-100%, 0)
+
+.fade-enter-active, .fade-leave-active
+  transition opacity .15s
+
+// 弹窗动画
+@-webkit-keyframes fadeIn
+  0%
+    opacity 0 /*初始状态 透明度为0*/
+
+  100%
+    opacity 1 /*结尾状态 透明度为1*/
+.fade
+  animation-name fadeIn
+  animation-duration 1s
+  animation-iteration-count 1
+  animation-delay 0s
+  transition-timing-function linear
